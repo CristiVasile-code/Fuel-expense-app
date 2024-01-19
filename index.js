@@ -1,6 +1,6 @@
 const scriptURL='https://script.google.com/macros/s/AKfycbyOUZmYbZ_BRXPveBJ1NaWqsI-8_-otn7tmzqJYh--5Ll_WuPLh-9iwJCg_ZDwB5NQB/exec'
 const form = document.forms['contact-form'];
-const title = document.getElementById('title');
+const title = document.querySelector("h3");
 
 form.addEventListener('submit', e => {
 e.preventDefault();
